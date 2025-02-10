@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 import guideAuto from '../../util/guide_auto'
-
+import { withMermaid } from "vitepress-plugin-mermaid";
 const config = defineConfig({
   lang: 'zh',
   title: "agiantii-blog",
@@ -47,5 +47,5 @@ const config = defineConfig({
   },
   outDir: '../dist'
 })
-
-export default config
+const meraidConfig = withMermaid(config)
+export default meraidConfig
