@@ -1,0 +1,9 @@
+# dir
+node_moduels/
+cache/
+dist/
+
+# file
+node_modules
+todo.md
+test*
