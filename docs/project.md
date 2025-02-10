@@ -6,9 +6,13 @@ hero:
 
 
 features:
-  - icon: 🚀
+  - icon: 📕
     title: ablog  
     details: ablog is a blog system based on vue3,springboot
-    link: http://agiantii.fun
+    link: https://gitee.com/Agiantii/ablog-front
+  - icon: 🏫
+    title: course-manage-system
+    details: course-manage-system is a course manage system based on vue3,springboot
+    link: https://gitee.com/Agiantii/course-management-system
 ---
 

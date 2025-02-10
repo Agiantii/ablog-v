@@ -17,6 +17,9 @@ hero:
     - theme: alter
       text: rool 🔧
       link: /tool
+    - theme: alter
+      text: template 🔧
+      link: /post/template
 ---
 
 <script setup>

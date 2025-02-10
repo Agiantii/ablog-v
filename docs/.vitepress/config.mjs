@@ -8,7 +8,7 @@ const config = defineConfig({
   description: "agiantii'home",
   lastUpdated: true,
   head:[
-    ['link', { rel: 'icon', href: './1.jpg' }],
+    ['link', { rel: 'icon', href: './pinia.svg' }],
   ],
   themeConfig: {
     nav: [
@@ -37,6 +37,9 @@ const config = defineConfig({
       message: 'Powered by VitePress ❤️',
     },
     logo: '/logo.svg', 
+    outline: {
+      level:[1,6]
+    }
   },
   markdown: {
     lineNumbers: true,

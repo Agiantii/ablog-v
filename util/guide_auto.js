@@ -13,9 +13,10 @@ function generateSidebarItems(dirPath, baseDir = '') {
         if (fs.statSync(fullPath).isDirectory()) {
             items.push({
                 text: file,
+                collapsed: true,
                 items: generateSidebarItems(fullPath, `${baseDir}/${file}`)
             });
-        } else if (file.endsWith('.md')) {
+        } else if (file.endsWith('.md') && file !='index.md') {
             const name = path.basename(file, '.md');
             items.push({
                 text: name,
