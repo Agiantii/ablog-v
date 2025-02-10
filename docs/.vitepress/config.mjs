@@ -31,7 +31,8 @@ const config = defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/agiantii' },
       { icon: 'zhihu', link: 'https://www.zhihu.com/people/giantii' },
-      { icon: 'bilibili', link: 'https://space.bilibili.com/3493076020497023' }
+      { icon: 'bilibili', link: 'https://space.bilibili.com/3493076020497023' },
+      {icon:'qq', link:'mailto:3234678638@qq.com'}
     ],
     footer: {
       message: 'Powered by VitePress ❤️',
