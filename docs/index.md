@@ -15,7 +15,7 @@ hero:
       text: about me 🗯️
       link: /about
     - theme: alter
-      text: rool 🔧
+      text: tool 🔧
       link: /tool
     - theme: alter
       text: template 🔧
