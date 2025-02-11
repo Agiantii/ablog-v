@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'hack';
+  src: url('/fonts/Hack-Regular') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --vp-font-family-base:  'hack' , sans-serif;
+  --vp-font-family-mono: 'hack', monospace;
+}

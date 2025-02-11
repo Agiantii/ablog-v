@@ -11,6 +11,25 @@ const RSS = {
   copyright: 'Copyright (c) 2025-present, agiantii',
 }
 const config = defineConfig({
+  
+  transformHead({ assets }) {
+    // 相应地调整正则表达式以匹配字体
+    const myFontFile = assets.find(file => /font-name\.\w+\.woff2/)
+    if (myFontFile) {
+      return [
+        [
+          'link',
+          {
+            rel: 'preload',
+            href: myFontFile,
+            as: 'font',
+            type: 'font/woff2',
+            crossorigin: ''
+          }
+        ]
+      ]
+    }}
+  ,
   vite: {
     // ↓↓↓↓↓
     plugins: [RssPlugin(RSS)]
