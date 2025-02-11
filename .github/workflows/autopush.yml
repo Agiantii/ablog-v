@@ -18,7 +18,6 @@ jobs:
       - name: debug
         run: ls 
       - name: deploy to github-page
-      - name: Deploy
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: git@github.com:Agiantii/Agiantii.github.io.git
