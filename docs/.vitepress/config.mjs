@@ -2,7 +2,20 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 import guideAuto from '../../util/guide_auto'
 import { withMermaid } from "vitepress-plugin-mermaid";
+import { RssPlugin} from 'vitepress-plugin-rss'
+const baseUrl = 'http://agiantii.fun'
+// const baseUrl = 'http://localhost/5173'
+const RSS = {
+  title: 'agiantii',
+  baseUrl,
+  copyright: 'Copyright (c) 2025-present, agiantii',
+}
 const config = defineConfig({
+  vite: {
+    // ↓↓↓↓↓
+    plugins: [RssPlugin(RSS)]
+    // ↑↑↑↑↑
+  },
   lang: 'zh',
   title: "agiantii-blog",
   description: "agiantii'home",
