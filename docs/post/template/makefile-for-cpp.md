@@ -1,3 +1,6 @@
+---
+lastUpdated: 2025-02-11 19:48:24+8:00
+---
 ##  makefile
 
 ### tempalte for cpp 
