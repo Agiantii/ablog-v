@@ -28,7 +28,7 @@ onMounted(async () => {
     });
     // sort by updated_at
     projects.value.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
-    console.log(projects.value);
+    // console.log(projects.value);
 });
 
 
