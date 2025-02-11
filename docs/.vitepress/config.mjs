@@ -21,7 +21,7 @@ const config = defineConfig({
   description: "agiantii'home",
   lastUpdated: true,
   head:[
-    ['link', { rel: 'icon', href: './pinia.svg' }],
+    ['link', { rel: 'icon', href: './book.ico' }],
   ],
   themeConfig: {
     nav: [
