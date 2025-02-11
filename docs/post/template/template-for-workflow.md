@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-11 19:48:38+8:00
+lastUpdated: 2025-02-11 21:04:24+8:00
 ---
 # tempalte
 
@@ -87,6 +87,13 @@ jobs:
         run: pnpm build
       - name: debug
         run: ls 
+      - name: deploy to github-page
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: git@github.com:Agiantii/Agiantii.github.io.git
+          BRANCH: gh-pages
+          FOLDER: dist
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
       - name: copy file via ssh password
         uses: appleboy/scp-action@v0.1.7
         with:
@@ -96,5 +103,4 @@ jobs:
           port: ${{ secrets.PORT }}
           source: "./dist" # 直接把dist传到服务器 
           target: ${{ secrets.TARGET }}
-
 ```
