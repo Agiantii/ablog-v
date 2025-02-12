@@ -1,6 +1,6 @@
 # 简单介绍
 
-用vitepress记录 自己的学习笔记
+用vitepress记录 自己的学习笔记，可用RSS订阅
 
 ## 使用 pnpm 管理项目
 
@@ -15,13 +15,13 @@ pnpm install
 ### 启动项目
 
 ```sh
-pnpm docs:dev
+pnpm dev
 ```
 
 ### 构建项目
 
 ```sh
-pnpm docs:build
+pnpm build
 ```
 
 
@@ -29,4 +29,6 @@ pnpm docs:build
 
 有关如何运行项目的更多信息，请参考 [pnpm 官方文档](https://pnpm.io/zh/cli/run).
 
-// ...existing code...
+
+
+
