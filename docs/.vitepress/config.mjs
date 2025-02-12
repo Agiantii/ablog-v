@@ -67,7 +67,7 @@ const config = defineConfig({
       {icon:'qq', link:'mailto:3234678638@qq.com'}
     ],
     footer: {
-      message: 'Powered by VitePress ❤️',
+      message: 'Powered by VitePress ❤️ | 浙ICP备2024099488号-1',
     },
     logo: '/logo.svg', 
     outline: {
