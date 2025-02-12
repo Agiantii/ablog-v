@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 import guideAuto from '../../util/guide_auto'
 import { withMermaid } from "vitepress-plugin-mermaid";
 import { RssPlugin} from 'vitepress-plugin-rss'
-const baseUrl = 'http://agiantii.fun'
+const baseUrl = 'http://blog.agiantii.fun'
 // const baseUrl = 'http://localhost/5173'
 const RSS = {
   title: 'agiantii',
