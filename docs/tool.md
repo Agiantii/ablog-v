@@ -1,4 +1,4 @@
 # tool
-- [cloudreve](http://cloud.agiantii.fun:5212)
-- [blog](http://agiantii.fun)
-- [code-server](http://code.agiantii.fun:8686)
+- [cloudreve](http://cloud.agiantii.fun)
+- [blog](http://blog.agiantii.fun)
+- [code-server](http://code.agiantii.fun/login)
