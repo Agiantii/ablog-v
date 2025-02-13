@@ -4,13 +4,13 @@ import path from 'path';
 const docsDir = path.resolve(__dirname, '../docs');
 const sidebar = {};
 const nav = [];
-const ignoredPaths = ['.vitepress', 'public','guide','dist'];
-
+const navignoredPaths = ['.vitepress', 'public','guide','dist'];
+const ignoredPaths = ['.vitepress','assets'];
 function generateSidebarItems(dirPath, baseDir = '') {
     const items = [];
     fs.readdirSync(dirPath).forEach((file) => {
         const fullPath = path.join(dirPath, file);
-        if (fs.statSync(fullPath).isDirectory()) {
+        if (fs.statSync(fullPath).isDirectory() && !ignoredPaths.includes(file)) {
             items.push({
                 text: file,
                 collapsed: true,
@@ -30,7 +30,7 @@ function generateSidebarItems(dirPath, baseDir = '') {
 
 fs.readdirSync(docsDir).forEach((dir) => {
     const fullPath = path.join(docsDir, dir);
-    if (fs.statSync(fullPath).isDirectory() && !ignoredPaths.includes(dir)) {
+    if (fs.statSync(fullPath).isDirectory() && !navignoredPaths.includes(dir)) {
         const items = generateSidebarItems(fullPath, `/${dir}`);
         sidebar[`/${dir}/`] = [
             {
