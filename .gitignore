@@ -2,7 +2,7 @@
 node_moduels/
 cache/
 dist/
-
+.obsidian/
 # file
 node_modules
 todo.md
