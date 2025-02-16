@@ -4,8 +4,8 @@ import path from 'path';
 const docsDir = path.resolve(__dirname, '../docs');
 const sidebar = {};
 const nav = [];
-const navignoredPaths = ['.vitepress', 'public','guide','dist'];
-const ignoredPaths = ['.vitepress','assets'];
+const navignoredPaths = ['.vitepress', 'public','guide','dist','.obsidian'];
+const ignoredPaths = ['.vitepress','assets','.obsidian'];
 function generateSidebarItems(dirPath, baseDir = '') {
     const items = [];
     fs.readdirSync(dirPath).forEach((file) => {
