@@ -36,7 +36,7 @@ const config = defineConfig({
     // ↑↑↑↑↑
   },
   lang: 'zh',
-  title: "agiantii-blog",
+  title: "课程设计",
   description: "agiantii'home",
   lastUpdated: true,
   head:[
@@ -67,7 +67,8 @@ const config = defineConfig({
       {icon:'qq', link:'mailto:3234678638@qq.com'}
     ],
     footer: {
-      message: 'Powered by VitePress ❤️ | 浙ICP备2024099488号-1',
+      message: 'Powered by VitePress ❤️ | <a href="https://beian.miit.gov.cn">浙ICP备2024099488号-1</a>',
+    
     },
     logo: '/logo.svg', 
     outline: {
