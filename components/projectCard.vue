@@ -92,4 +92,9 @@ onMounted(async () => {
 :root {
     color-scheme: dark;
 }
+@media screen and (max-width: 600px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
 </style>
