@@ -36,7 +36,7 @@ const config = defineConfig({
     // ↑↑↑↑↑
   },
   lang: 'zh',
-  title: "课程设计",
+  title: "ablog",
   description: "agiantii'home",
   lastUpdated: true,
   head:[
