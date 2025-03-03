@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 import guideAuto from '../../util/guide_auto'
 import { withMermaid } from "vitepress-plugin-mermaid";
 import { RssPlugin} from 'vitepress-plugin-rss'
-const baseUrl = 'http://blog.agiantii.fun'
+const baseUrl = 'http://blog.agiantii.top'
 // const baseUrl = 'http://localhost/5173'
 const RSS = {
   title: 'agiantii',
@@ -67,7 +67,7 @@ const config = defineConfig({
       {icon:'qq', link:'mailto:3234678638@qq.com'}
     ],
     footer: {
-      message: 'Powered by VitePress ❤️ | <a href="https://beian.miit.gov.cn">浙ICP备2024099488号-1</a>',
+      message: 'Powered by VitePress ❤️ | <a href="https://beian.miit.gov.cn">浙ICP备2024099488号-2</a>',
     
     },
     logo: '/logo.svg', 

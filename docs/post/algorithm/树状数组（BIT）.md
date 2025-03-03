@@ -1,3 +1,6 @@
+---
+lastUpdated: 2025-03-03 16:13:38+8:00
+---
 BIT（binary indexed tree)
 [树状数组(详细分析+应用)](https://blog.csdn.net/TheWayForDream/article/details/118436732)
 ## 例题

@@ -1,3 +1,6 @@
+---
+lastUpdated: 2025-03-03 16:14:00+8:00
+---
 #算法 #icg #nimm游戏
 
 [公平组合游戏 - OI Wiki (oi-wiki.org)](https://oi-wiki.org/math/game-theory/impartial-game/)
