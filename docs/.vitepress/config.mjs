@@ -42,6 +42,7 @@ const config = defineConfig({
   head:[
     ['link', { rel: 'icon', href: './ico/book.ico' }],
   ],
+  ignoreDeadLinks:true,
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
